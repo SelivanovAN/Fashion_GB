@@ -1,2 +1,2 @@
-# Fashion_GB
-Обучающий сайт на обучении в GB
+# GB_Fashion
+The brand of luxerious fashion
