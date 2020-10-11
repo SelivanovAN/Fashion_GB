@@ -20,10 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0756753d-3852-4a07-abe0-3689a9558868" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/sass/.sass-cache/92c46c34bbdb072d34cee6ffa1eb0fb175662eae/style.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/.sass-cache/29a12b8d8f63c74256459047f5271ffa05d7ae9f/style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/sass/.sass-cache/29a12b8d8f63c74256459047f5271ffa05d7ae9f/style.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +33,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,6 +50,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../../Ruby26-x64/bin/sass.bat" />
@@ -56,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601834454888</updated>
-      <workItem from="1601834456658" duration="910000" />
+      <workItem from="1601834456658" duration="27089000" />
     </task>
     <servers />
   </component>
