@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sass/style.css">
+    <script src="https://kit.fontawesome.com/981c296276.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<main class="wrapper-container">
+    <header class="header container">
+        <div class="header_left">
+            <a href="index.html" class="header_brand">
+                <img src="img/logo.png" alt="logo">Bran<span class="header_logo-d">d</span>
+            </a>
+            <form action="" method="get" class="header_search">
+                <div class="header_browse">Browse <i class="fas fa-caret-down"></i></div>
+                <input type="text" name="search" placeholder="Search for Item...">
+                <button class="header_btn"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+        <div class="header_right">
+            <img src="img/bascet.png" alt="cart">
+            <a href="#" class="header_account">My Account</a>
+        </div>
+    </header>
+    <nav class="menu container">
+        <a href="#" class="menu-link">Home</a>
+        <a href="#" class="menu-link">Man</a>
+        <a href="#" class="menu-link">Women</a>
+        <a href="#" class="menu-link">Kids</a>
+        <a href="#" class="menu-link">Accoseriese</a>
+        <a href="#" class="menu-link">Featured</a>
+        <a href="#" class="menu-link">Hot Deals</a>
+    </nav>
+    <div class="arrivals-wrapper">
+        <article class="arrivals container">
+            <section class="arrivals_h2">new arrivals
+            </section>
+            <section class="arrivals_links">
+                <a href="#" class="arrivals_link">home /&nbsp;</a>
+                <a href="#" class="arrivals_link"> men /&nbsp;</a>
+                <a href="#" class="arrivals_link arrivals_link-active"> new arrivals </a>
+            </section>
+        </article>
+    </div>
+    <article class="items container">
+        <section class="items_menu">
+            <h2 class="items_menu-cat-h2">Category</h2>
+            <section class="items_menu-cat-links">
+                <a href="#" class="items_menu-cat-link">Accessories</a>
+                <a href="#" class="items_menu-cat-link">Bags</a>
+                <a href="#" class="items_menu-cat-link">Denim</a>
+                <a href="#" class="items_menu-cat-link">Hoodies & Sweatshirts</a>
+                <a href="#" class="items_menu-cat-link">Jackets & Coats</a>
+                <a href="#" class="items_menu-cat-link">Pants</a>
+                <a href="#" class="items_menu-cat-link">Polos</a>
+                <a href="#" class="items_menu-cat-link">Shirts</a>
+                <a href="#" class="items_menu-cat-link">Shoes</a>
+                <a href="#" class="items_menu-cat-link">Shorts</a>
+                <a href="#" class="items_menu-cat-link">Sweaters & Knits</a>
+                <a href="#" class="items_menu-cat-link">T-Shirts</a>
+                <a href="#" class="items_menu-cat-link">Tanks</a>
+            </section>
+            <h2 class="items_menu-brand-h2">BRAND</h2>
+            <section class="items_menu-brand-links">
+            </section>
+            <h2 class="items_menu-desinger-h2">DESIGNER</h2>
+            <section class="items_menu-desinger-links">
+            </section>
+        </section>
+        <section class="items_content">
+            <section class="items_content-form">
+                <section class="items_content-form-trending  trending">
+                    <h2 class="trending_h2">Trending now</h2>
+                    <section class="trending_items">
+                        <span class="trending_item">Bohemian</span>
+                        <span class="trending_item">Floral</span>
+                        <span class="trending_item">Lace</span>
+                        <span class="trending_item">Floral</span>
+                        <span class="trending_item">Lace</span>
+                        <span class="trending_item">Bohemian</span>
+                    </section>
+                </section>
+                <section class="items_content-form-size size">
+                    <h2 class="size_h2">Size</h2>
+                    <section class="size_checkbox">
+                        <input type="checkbox" name="check-xxs" id="check1">
+                        <label class="meaning size_label" for="check1">xxs</label>
+
+                        <input type="checkbox" name="check-xs" id="check2">
+                        <label class="meaning size_label" for="check2">xs</label>
+
+                        <input type="checkbox" name="check-s" id="check3">
+                        <label class="meaning size_label" for="check3">s</label>
+
+                        <input type="checkbox" name="check-m" id="check4">
+                        <label class="meaning size_label" for="check4">m</label>
+
+                        <input type="checkbox" name="check-l" id="check5">
+                        <label class="meaning size_label" for="check5">l</label>
+
+                        <input type="checkbox" name="check-xl" id="check6">
+                        <label class="meaning size_label" for="check6">xl</label>
+
+                        <input type="checkbox" name="check-xxl" id="check7">
+                        <label class="meaning size_label" for="check7">xxl</label>
+                    </section>
+                </section>
+                <section class="items_content-form-price price">
+                    <h2 class="price_h2">Price</h2>
+                    <div class="price-controls">
+                        <div class="price_scale">
+                            <div class="price_bar"></div>
+                        </div>
+                        <div class="price_toggle price_toggle-min"></div>
+                        <div class="price_toggle price_toggle-max"></div>
+                    </div>
+                    <section class="price_cost">
+                        <label class="min-price choice">$<input type="text" name="min-price" value="52"></label>
+                        <label class="max-price choice">$<input  type="text" name="max-price" value="400"></label>
+                    </section>
+                </section>
+            </section>
+            <section class="items_content-sort-show sorting showing">
+                <div class="sorting-wrap">
+                    <label class="sorting_label" for="sorting">Sort By
+                        <select name="sorting" id="sorting">
+                            <option selected>Name</option>
+                            <option>Price</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="showing-wrap">
+                    <label class="showing_label" for="showing">Show
+                        <select name="showing" id="showing">
+                            <option selected>09</option>
+                            <option>08</option>
+                        </select>
+                    </label>
+                </div>
+            </section>
+            <section class="items_content-imgs img">
+                <section class="img-item">
+                    <div class="img-item_img">
+                        <img src="img/product_1.png" alt="Mango  People  T-shirt">
+                    </div>
+                    <div class="img-item_img-hover">
+                        <span class="img-item_img-basket">Add to Cart</span>
+                        <div class="item_heart-wrap">
+                            <span class="item_double-arrow"></span>
+                            <span class="item_heart"></span>
+                        </div>
+                    </div>
+                    <a href="#" class="img-item_text">mango People T-shirt</a>
+                    <span class="img-item_price">$52.00</span>
+                </section>
+                <section class="img-item">
+                    <div class="img-item_img">
+                        <img src="img/product_2.png" alt="Mango  People  T-shirt">
+                    </div>
+                    <div class="img-item_img-hover">
+                        <span class="img-item_img-basket">Add to Cart</span>
+                        <div class="item_heart-wrap">
+                            <span class="item_double-arrow"></span>
+                            <span class="item_heart"></span>
+                        </div>
+                    </div>
+                    <a href="#" class="img-item_text">mango People T-shirt</a>
+                    <span class="img-item_price">$52.00</span>
+                </section>
+                <section class="img-item">
+                    <div class="img-item_img">
+                        <img src="img/product_3.png" alt="Mango  People  T-shirt">
+                    </div>
+                    <div class="img-item_img-hover">
+                        <span class="img-item_img-basket">Add to Cart</span>
+                        <div class="item_heart-wrap">
+                            <span class="item_double-arrow"></span>
+                            <span class="item_heart"></span>
+                        </div>
+                    </div>
+                    <a href="#" class="img-item_text">mango People T-shirt</a>
+                    <span class="img-item_price">$52.00</span>
+                </section>
+                <section class="img-item">
+                    <div class="img-item_img">
+                        <img src="img/product_4.png" alt="Mango  People  T-shirt">
+                    </div>
+                    <div class="img-item_img-hover">
+                        <span class="img-item_img-basket">Add to Cart</span>
+                        <div class="item_heart-wrap">
+                            <span class="item_double-arrow"></span>
+                            <span class="item_heart"></span>
+                        </div>
+                    </div>
+                    <a href="#" class="img-item_text">mango People T-shirt</a>
+                    <span class="img-item_price">$52.00</span>
+                </section>
+                <section class="img-item">
+                    <div class="img-item_img">
+                        <img src="img/product_5.png" alt="Mango  People  T-shirt">
+                    </div>
+                    <div class="img-item_img-hover">
+                        <span class="img-item_img-basket">Add to Cart</span>
+                        <div class="item_heart-wrap">
+                            <span class="item_double-arrow"></span>
+                            <span class="item_heart"></span>
+                        </div>
+                    </div>
+                    <a href="#" class="img-item_text">mango People T-shirt</a>
+                    <span class="img-item_price">$52.00</span>
+                </section>
+                <section class="img-item">
+                    <div class="img-item_img">
+                        <img src="img/product_6.png" alt="Mango  People  T-shirt">
+                    </div>
+                    <div class="img-item_img-hover">
+                        <span class="img-item_img-basket">Add to Cart</span>
+                        <div class="item_heart-wrap">
+                            <span class="item_double-arrow"></span>
+                            <span class="item_heart"></span>
+                        </div>
+                    </div>
+                    <a href="#" class="img-item_text">mango People T-shirt</a>
+                    <span class="img-item_price">$52.00</span>
+                </section>
+                <section class="img-item">
+                    <div class="img-item_img">
+                        <img src="img/product_7.png" alt="Mango  People  T-shirt">
+                    </div>
+                    <div class="img-item_img-hover">
+                        <span class="img-item_img-basket">Add to Cart</span>
+                        <div class="item_heart-wrap">
+                            <span class="item_double-arrow"></span>
+                            <span class="item_heart"></span>
+                        </div>
+                    </div>
+                    <a href="#" class="img-item_text">mango People T-shirt</a>
+                    <span class="img-item_price">$52.00</span>
+                </section>
+                <section class="img-item">
+                    <div class="img-item_img">
+                        <img src="img/product_8.png" alt="Mango  People  T-shirt">
+                    </div>
+                    <div class="img-item_img-hover">
+                        <span class="img-item_img-basket">Add to Cart</span>
+                        <div class="item_heart-wrap">
+                            <span class="item_double-arrow"></span>
+                            <span class="item_heart"></span>
+                        </div>
+                    </div>
+                    <a href="#" class="img-item_text">mango People T-shirt</a>
+                    <span class="img-item_price">$52.00</span>
+                </section>
+                <section class="img-item">
+                    <div class="img-item_img">
+                        <img src="img/product_9.png" alt="Mango  People  T-shirt">
+                    </div>
+                    <div class="img-item_img-hover">
+                        <span class="img-item_img-basket">Add to Cart</span>
+                        <div class="item_heart-wrap">
+                            <span class="item_double-arrow"></span>
+                            <span class="item_heart"></span>
+                        </div>
+                    </div>
+                    <a href="#" class="img-item_text">mango People T-shirt</a>
+                    <span class="img-item_price">$52.00</span>
+                </section>
+            </section>
+            <section class="items_content-pages">
+                <section class="items_content-pages-wrap">
+                    <a href="#" class="items_content-page"></a>
+                    <a href="#" class="items_content-page items_content-page-active">1</a>
+                    <a href="#" class="items_content-page">2</a>
+                    <a href="#" class="items_content-page">3</a>
+                    <a href="#" class="items_content-page">4</a>
+                    <a href="#" class="items_content-page">5</a>
+                    <a href="#" class="items_content-page">6</a>
+                    <a href="#" class="items_content-page">...</a>
+                    <a href="#" class="items_content-page">20</a>
+                    <a href="#" class="items_content-page"></a>
+                </section>
+                <button class="items_content-btn">View All</button>
+            </section>
+        </section>
+    </article>
+    <article class="fsq">
+        <div class="fsq_wrapper container">
+            <section class="fsq_delivery fsq-size">
+                <span class="fsq_delivery_h4">Free Delivery</span>
+                <span class="fsq_delivery_text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</span>
+            </section>
+            <section class="fsq_discount fsq-size">
+                <span class="fsq_discount_h4">Sales &amp; discounts</span>
+                <span class="fsq_discount_text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</span>
+            </section>
+            <section class="fsq_quality fsq-size">
+                <span class="fsq_quality_h4">Quality assurance</span>
+                <span class="fsq_quality_text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</span>
+            </section>
+        </div>
+    </article>
+    <article class="subscribe-wrapper">
+        <div class="subscribe container">
+            <section class="subscribe_comment">
+                <span class="subscribe_text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</span>
+                <span class="subscribe_name">Bin Burhan</span>
+                <span class="subscribe_place">Dhaka, Bd</span>
+                <div class="subscribe_pagination">
+                    <a href="#" class="quatro"></a>
+                    <a href="#" class="quatro quatro-active"></a>
+                    <a href="#" class="quatro"></a>
+                </div>
+            </section>
+            <section class="subscribe_sign">
+                <h2 class="subscribe_h4">Subscribe</h2>
+                <span class="subscribe_sign-text">FOR OUR NEWLETTER AND PROMOTION</span>
+                <form action="#" class="subscribe_form">
+                    <label><input type="email" class="subscribe_email" placeholder="Enter Your Email"></label>
+                    <button type="submit" class="subscribe-btn">Subscribe</button>
+                </form>
+            </section>
+        </div>
+    </article>
+    <footer class="pre-footer container">
+        <section class="pre-footer_logo">
+            <div class="pre-footer_logo-img">
+                <a href="index.html" class="pre-logo">
+                    <img src="img/logo.png" alt="logo">bran <span class="pre-footer_logo-txt">d</span>
+                </a>
+            </div>
+            <span class="pre-footer_text">
+                		Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.
+                	</span>
+            <span class="pre-footer_text">
+                		Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.
+                	</span>
+        </section>
+        <section class="pre-footer_inform">
+            <div class="pre-footer_company">
+                <span class="pre-footer_company-h4">company</span>
+                <a href="#" class="pre-footer_company-link">Home</a>
+                <a href="#" class="pre-footer_company-link">Shop</a>
+                <a href="#" class="pre-footer_company-link">About</a>
+                <a href="#" class="pre-footer_company-link">How it Works</a>
+                <a href="#" class="pre-footer_company-link">Contact</a>
+            </div>
+            <div class="pre-footer_information">
+                <span class="pre-footer_information-h4">information</span>
+                <a href="#" class="pre-footer_information-link">Tearms &amp; Condition</a>
+                <a href="#" class="pre-footer_information-link">Privacy Policy</a>
+                <a href="#" class="pre-footer_information-link">How to Buy</a>
+                <a href="#" class="pre-footer_information-link">How to Sell</a>
+                <a href="#" class="pre-footer_information-link">Promotios</a>
+            </div>
+            <div class="pre-footer_shop">
+                <span class="pre-footer_shop-h4">SHOP CATEGORY</span>
+                <a href="#" class="pre-footer_shop-link">Men</a>
+                <a href="#" class="pre-footer_shop-link">Women</a>
+                <a href="#" class="pre-footer_shop-link">Child</a>
+                <a href="#" class="pre-footer_shop-link">Apparel</a>
+                <a href="#" class="pre-footer_shop-link">Brows All</a>
+            </div>
+        </section>
+    </footer>
+    <footer class="footer-wrapper">
+        <div class="footer container">
+            <div class="footer_copyright">© 2017  Brand  All Rights Reserved.</div>
+            <div class="footer_social">
+                <a href="#" class="social-link social-f"></a>
+                <a href="#" class="social-link social-t"></a>
+                <a href="#" class="social-link social-i"></a>
+                <a href="#" class="social-link social-b"></a>
+                <a href="#" class="social-link social-g"></a>
+            </div>
+        </div>
+    </footer>
+</main>
+</body>
+</html>
